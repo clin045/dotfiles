@@ -33,41 +33,44 @@ URxvt*scrollBar:                     false
 ! URxvt*cursorUnderline:                boolean
 ! URxvt*cursorBlink:                    boolean
 ! URxvt*pointerBlank:                   boolean
-*background: #1F1F22
-*foreground: #F3F3F3
-*cursorColor: #F3F3F3
+! special
+*.foreground:   #bea492
+*.background:   #181512
+*.cursorColor:  #bea492
+*.colorBD:      #bea492
 
-!black
-*color0:  #333333
-*color8:  #333333
+! black
+*.color0:       #33302e
+*.color8:       #81776f
 
-!red
-*color1:  #BF5C56
-*color9:  #BF5C56
+! red
+*.color1:       #8c4c4c
+*.color9:       #9f5555
 
-!green
-*color2:  #97B19C
-*color10: #97B19C
+! green
+*.color2:       #746c48
+*.color10:      #857b52
 
-!yellow
-*color3:  #D7BD8A
-*color11: #D7BD8A
+! yellow
+*.color3:       #907245
+*.color11:      #9c7e53
 
-!blue
-*color4:  #545F72
-*color12: #545f72
+! blue
+*.color4:       #4c626d
+*.color12:      #5b707a
 
-!magenta
-*color5:  #DD949A
-*color13: #DD949A
+! magenta
+*.color5:       #604c5f
+*.color13:      #625665
 
-!cyan
-*color6:  #BE926B
-*color14: #BE926B
+! cyan
+*.color6:       #4b5e57
+*.color14:      #557067
 
-!white
-*color7:  #F4F4F2
-*color15: #F4F4F2
+! white
+*.color7:       #a69181
+*.color15:      #e8dfcd
+
 ! URxvt*color8:                         color
 ! URxvt*color9:                         color
 ! URxvt*color10:                        color
